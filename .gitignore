@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Build files
+build/
+dist/
+*.spec
+*.egg-info/
+
+# Executáveis com credenciais (não commitar executáveis com credenciais embutidas)
+dist/*.exe
+
+# Credentials and tokens (NUNCA commitar!)
+credentials.json
+token.pickle
+*.pickle
+
+# Generated files
+*.txt
+!requirements.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
